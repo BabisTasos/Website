@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './Css/index.css';
+import './index.css';
 import MainPage from './Components/MainPage/MainPage';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MainPage />
+    <MainPage/>
   </React.StrictMode>,
   document.getElementById('root')
 );
-reportWebVitals();
+
