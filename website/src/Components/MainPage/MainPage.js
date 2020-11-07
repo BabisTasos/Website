@@ -11,7 +11,7 @@ function App() {
           <li><button>Επικοινωνία</button></li>
           <li><button>Κατηγορίες</button></li>
           <a style = {{top: '17px', left: '50%', transform: 'translate(-50%,-50%)', position:'absolute',cursor: 'pointer'}} href = "https://www.google.com">Logo</a> 
-          {/* TODO react here*/}
+          {/* TODO react here */}
           <li className = "login_register"><button>Είσοδος</button></li>
           <li className = "login_register"><button>Εγγραφή</button></li>
         </ul>
