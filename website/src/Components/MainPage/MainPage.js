@@ -38,16 +38,16 @@ function App() {
             </div>
             <div className = "stories2">
             <a href = "https://www.google.com">
-                <img src = {image2} className = "latest" alt= "alt"/>
+                <img src = {image1} className = "latest" alt= "alt"/>
               </a>       
               <a href = "https://www.google.com">
-                <img src = {image2} className = "latest" alt= "alt"/>
+                <img src = {image1} className = "latest" alt= "alt"/>
               </a>
               <a href = "https://www.google.com">
-                <img src = {image2} className = "latest" alt= "alt"/>
+                <img src = {image1} className = "latest" alt= "alt"/>
               </a>       
               <a href = "https://www.google.com">
-                <img src = {image2} className = "latest" alt= "alt"/>
+                <img src = {image1} className = "latest" alt= "alt"/>
               </a>             
             </div> 
             <div id = "footer">

@@ -76,20 +76,20 @@ transition: 0.5s;
 
 .popular{
   float: left;
-  margin-left: 70px;
+  margin-left: 0px;
   margin-top: 30px;
   border: none;
-  height: 200px;
-  width: 300px;
+  height:auto;
+  width: 100%;
 }
 
 .latest{
   float: right;
-  margin-right: 70px;
+  margin-right: 0px;
   margin-top: 30px;
   border: none;
-  height: 200px;
-  width: 300px;
+  height:auto;
+  width: 100%;
 }
 
 #footer{
@@ -103,20 +103,6 @@ transition: 0.5s;
 
 .login_register {
   float: right;
-}
-
-@media only screen and (max-device-width: 1234px) {
-  .popular{
-    height:100px;
-    width:150px;
-    margin-left: 30px;
-  }
-  
-  .latest{
-    height:100px;
-    width:150px;
-    margin-right: 30px;   
-  }
 }
 
 @media only screen and (max-device-width: 778px) {
