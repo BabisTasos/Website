@@ -1,0 +1,152 @@
+#container{
+  height: 100vh;
+  width: 100%;
+}
+
+#header {
+  float: left;
+  background-color: red;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+#header ul {
+list-style-type: none;
+padding: 0;
+margin-top: 0;
+}
+
+#header button {
+color: white;
+float: left;
+background-color: red;
+border: none;
+padding: 10px;
+font-size: 16px;
+outline: none;
+}
+
+#header button:hover {
+background-color: rgba(169, 169, 169, 0.603);
+cursor: pointer;
+opacity: 1;
+transition: 0.5s;
+}
+
+.stories{
+  position: relative;
+  border: solid red;
+  height: 60%;
+  width: 100%;
+  left: 50%;
+  bottom: -40%;
+  transform: translate(-50%,-50%);
+}
+
+.stories1{
+  position: relative;
+  border: solid rgb(162, 0, 255);
+  float: left;
+  margin-left: 15%;
+  width: 30%;
+}
+
+.stories2{
+  position: relative;
+  border: solid rgb(162, 0, 255);
+  float: right;
+  margin-right: 15%;
+  width: 30%;
+}
+
+.highlights{
+  border: solid blue;
+  height: 270px;
+  width: 70%;
+  margin-bottom: 70px;
+  margin-top: 60px;
+  transform: translate(21%);
+}
+
+.highlights_img{
+  width:100%;
+  height:100%;
+}
+
+.popular{
+  float: left;
+  margin-left: 70px;
+  margin-top: 30px;
+  border: none;
+  height: 200px;
+  width: 300px;
+}
+
+.latest{
+  float: right;
+  margin-right: 70px;
+  margin-top: 30px;
+  border: none;
+  height: 200px;
+  width: 300px;
+}
+
+#footer{
+  float:right;
+  width: 100%;
+  height: 100px;
+  border: solid purple;
+  margin-right: -3px;
+  transform: translate(0%);
+}
+
+.login_register {
+  float: right;
+}
+
+@media only screen and (max-device-width: 1234px) {
+  .popular{
+    height:100px;
+    width:150px;
+    margin-left: 30px;
+  }
+  
+  .latest{
+    height:100px;
+    width:150px;
+    margin-right: 30px;   
+  }
+}
+
+@media only screen and (max-device-width: 778px) {
+  .popular{
+    height:auto;
+    width:100%;
+    margin-left: 0px; 
+  }
+
+  .latest{
+    height:auto;
+    width:100%;
+    margin-right: -4px; 
+  }
+
+  .stories1{
+    height:auto;
+    width:100%;
+    margin-left: -3px; 
+  }
+
+  .stories2{
+    height:auto;
+    width:100%;
+    margin-right: 1px;
+  }
+
+  .highlights{
+    width:100%;
+    margin-left: -3px;
+    transform: translate(0%);
+  }
+}
