@@ -7,7 +7,7 @@ function App() {
     <div id = "container">
         <div id = "header">   
         <ul>
-          <li><button >Αρχική</button></li>
+          <li><button>Αρχική</button></li>
           <li><button>Επικοινωνία</button></li>
           <li><button>Κατηγορίες</button></li>
           <a style = {{top: '17px', left: '50%', transform: 'translate(-50%,-50%)', position:'absolute',cursor: 'pointer'}} href = "https://www.google.com">Logo</a> 
