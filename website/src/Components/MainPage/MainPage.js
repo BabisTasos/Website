@@ -40,9 +40,9 @@ function App() {
             <a style = {{top: '17px', left: '50%', transform: 'translate(-50%,-50%)', position:'absolute',cursor: 'pointer'}} href = "https://www.google.com">Logo</a> 
             {/* TODO react here */}
             
-            <li className = "login_register"><button>Είσοδος</button></li>
-            <li className = "login_register"><button>Εγγραφή</button></li>
-            <li className = "login_register"><button>Επικοινωνία</button></li>
+            <li><button className = "login_register">Είσοδος</button></li>
+            <li><button className = "login_register">Εγγραφή</button></li>
+            <li><button className = "login_register">Επικοινωνία</button></li>
           </ul>
         </div>   
           <div className = "stories">
