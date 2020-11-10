@@ -9,7 +9,7 @@ function App() {
         <ul>
         <li>
           <div className="dropdown">
-              <button className = "dropdown">Games</button>
+              <button className = "dropbtn">Games</button>
               <div className="dropdown-content">
                 <a href="#">Link 1</a>
                 <a href="#">Link 2</a>
@@ -19,7 +19,7 @@ function App() {
           </li>
           <li>
           <div className="dropdown">
-              <button className = "dropdown">Tech news</button>
+              <button className = "dropbtn">Tech news</button>
               <div className="dropdown-content">
                 <a href="#">Link 1</a>
                 <a href="#">Link 2</a>
@@ -29,7 +29,7 @@ function App() {
           </li>
           <li>
           <div className="dropdown">
-              <button className = "dropdown">Hardware</button>
+              <button className = "dropbtn">Hardware</button>
               <div className="dropdown-content">
                 <a href="#">Link 1</a>
                 <a href="#">Link 2</a>
