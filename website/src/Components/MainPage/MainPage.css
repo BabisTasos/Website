@@ -177,9 +177,6 @@
   transition: 0.5s;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 
 @media only screen and (max-width: 778px) {
 
@@ -209,8 +206,9 @@
 
   #ad2{
     position: relative;
-    border: solid rgb(162, 0, 255);
+    border: solid black;
     float: left;
+    margin-top: 30px;
     height:100px;/*todo auto for image adds*/
     left: 0%;
     margin-left: -3px;
@@ -219,18 +217,18 @@
   
   #ad3{
     position: relative;
-    border: solid rgb(162, 0, 255);
+    border: solid black;
     float: left;
-    height:100px;/*todo auto for image adds*/
+    margin-top: 30px;
+    height: 100px;/*todo auto for image adds*/
     left: 0%;
     margin-right: 1px;
     width:100%;
   } 
 
-  .highlights{
-    width:100%;
+  .highlights{ 
     margin-left: -3px;
+    width:100%;
     transform: translate(0%);
   }
 }
-

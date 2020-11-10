@@ -10,9 +10,9 @@ export default function Menu2() {
           <div className="dropdown">
           <button className = "dropbtn">Games2</button>
               <div className="dropdown-content">
-              <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+              <a href="https:pornhub.com">Link 1</a>
+                <a href="https:pornhub.com">Link 2</a>
+                <a href="https:pornhub.com">Link 3</a>
             </div>
             </div>
           </li>
@@ -20,9 +20,9 @@ export default function Menu2() {
           <div className="dropdown">
             <button className = "dropbtn">Tech news</button>
               <div className="dropdown-content">
-                <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+                <a href="https:pornhub.com">Link 1</a>
+              <a href="https:pornhub.com">Link 2</a>
+              <a href="https:pornhub.com">Link 3</a>
               </div>
             </div>
         </li>
@@ -30,9 +30,9 @@ export default function Menu2() {
           <div className="dropdown">
               <button className = "dropbtn">Hardware</button>
               <div className="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="https:pornhub.com">Link 1</a>
+                <a href="https:pornhub.com">Link 2</a>
+                <a href="https:pornhub.com">Link 3</a>
             </div>
             </div>
           </li>
