@@ -26,7 +26,6 @@
   padding: 10px;
   font-size: 16px;
   outline: none;
-  display: inline-block;
 }
 
 #ad1{
@@ -144,7 +143,6 @@
 .dropdown {
   position: relative;
   float: left;
-  display: inline-block;
 }
 
 .dropdown-content {
@@ -183,7 +181,7 @@
   display: block;
 }
 
-@media only screen and (max-device-width: 778px) {
+@media only screen and (max-width: 778px) {
 
   .popular{
     height:auto;
