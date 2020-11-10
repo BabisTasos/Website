@@ -17,11 +17,14 @@ function App() {
         </ul>
         </div>   
           <div className = "stories">
+            <div id="ad1">
+                  AD1
+            </div>
             <div className = "highlights">
             <a href = "https://www.google.com">
                 <img src = {image2} className = "highlights_img" alt= "alt"/>
             </a> 
-            </div>
+            </div> 
             <div className = "stories1">
             <a href = "https://www.google.com">
                 <img src = {image1} className = "popular" alt= "alt"/>
