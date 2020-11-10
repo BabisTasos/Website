@@ -107,7 +107,7 @@
 
 .latest{
   float: right;
-  margin-right: 0px;
+  margin-right: -1px;
   margin-top: 30px;
   border: none;
   height:auto;
