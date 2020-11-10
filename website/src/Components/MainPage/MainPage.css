@@ -8,15 +8,28 @@
   float: left;
   background-color: red;
   width: 100%;
+  height: 39px;
   z-index: 1;
 }
 
+#header ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+.login_register {
+  float: right;
+}
+
 .dropbtn {
-  background-color: #4CAF50;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  float: left;
+  background-color: red;
   border: none;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
 }
 
 .dropdown {
@@ -51,33 +64,14 @@
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: rgba(169, 169, 169, 0.603);
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.5s;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-#header ul {
-list-style-type: none;
-padding: 0;
-margin-top: 0;
-}
-
-#header button {
-color: white;
-float: left;
-background-color: red;
-border: none;
-padding: 10px;
-font-size: 16px;
-outline: none;
-}
-
-#header button:hover {
-background-color: rgba(169, 169, 169, 0.603);
-cursor: pointer;
-opacity: 1;
-transition: 0.5s;
 }
 
 #ad1{
@@ -173,11 +167,8 @@ transition: 0.5s;
   transform: translate(0%);
 }
 
-.login_register {
-  float: right;
-}
-
 @media only screen and (max-device-width: 778px) {
+
   .popular{
     height:auto;
     width:100%;

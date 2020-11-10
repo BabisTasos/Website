@@ -5,47 +5,45 @@ import image2 from '../../img/image2.jpg';
 function App() {
   return (
     <div id = "container">
-        <div id = "header">   
+      <div id = "header">  
         <ul>
-        <li>
-          <div className="dropdown">
-              <button className = "dropbtn">Games</button>
-              <div className="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
-            </div>
-          </li>
           <li>
-          <div className="dropdown">
+            <div className="dropdown">
+            <button className = "dropbtn">Games</button>
+                <div className="dropdown-content">
+                <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+              </div>
+              </div>
+            </li>
+            <li>
+            <div className="dropdown">
               <button className = "dropbtn">Tech news</button>
-              <div className="dropdown-content">
-                <a href="#">Link 1</a>
+                <div className="dropdown-content">
+                  <a href="#">Link 1</a>
                 <a href="#">Link 2</a>
                 <a href="#">Link 3</a>
+                </div>
               </div>
-            </div>
           </li>
-          <li>
-          <div className="dropdown">
-              <button className = "dropbtn">Hardware</button>
-              <div className="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+            <li>
+            <div className="dropdown">
+                <button className = "dropbtn">Hardware</button>
+                <div className="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
               </div>
-            </div>
-          </li>
-
-          
-          <a style = {{top: '17px', left: '50%', transform: 'translate(-50%,-50%)', position:'absolute',cursor: 'pointer'}} href = "https://www.google.com">Logo</a> 
-          {/* TODO react here */}
-          
-          <li className = "login_register"><button>Είσοδος</button></li>
-          <li className = "login_register"><button>Εγγραφή</button></li>
-          <li className = "login_register"><button>Επικοινωνία</button></li>
-        </ul>
+              </div>
+            </li>
+            <a style = {{top: '17px', left: '50%', transform: 'translate(-50%,-50%)', position:'absolute',cursor: 'pointer'}} href = "https://www.google.com">Logo</a> 
+            {/* TODO react here */}
+            
+            <li className = "login_register"><button>Είσοδος</button></li>
+            <li className = "login_register"><button>Εγγραφή</button></li>
+            <li className = "login_register"><button>Επικοινωνία</button></li>
+          </ul>
         </div>   
           <div className = "stories">
             <div id="ad1">
