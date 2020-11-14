@@ -16,7 +16,7 @@ export default function Menu() {
           <div className="dropdown">
           <button className = "dropbtn">Games</button>
               <div className="dropdown-content">
-              <a href="https:pornhub.com">Link 1</a>
+                <a href="https:pornhub.com">Link 1</a>
                 <a href="https:pornhub.com">Link 2</a>
                 <a href="https:pornhub.com">Link 3</a>
             </div>
@@ -27,8 +27,8 @@ export default function Menu() {
             <button className = "dropbtn">Tech news</button>
               <div className="dropdown-content">
                 <a href="https:pornhub.com">Link 1</a>
-              <a href="https:pornhub.com">Link 2</a>
-              <a href="https:pornhub.com">Link 3</a>
+                <a href="https:pornhub.com">Link 2</a>
+                <a href="https:pornhub.com">Link 3</a>
               </div>
             </div>
         </li>
