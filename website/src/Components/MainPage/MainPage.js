@@ -8,7 +8,6 @@ import React, {useState,useEffect} from "react"
 const App = () => {
 
   const [windowSize, setwindowSize] = useState(window.innerWidth);
-  const [k, setmenuCss] = useState(0);
   const handleResize = () => {
     if(windowSize < 785){
       setwindowSize(window.innerWidth)       
