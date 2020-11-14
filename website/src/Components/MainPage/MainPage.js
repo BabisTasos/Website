@@ -1,6 +1,6 @@
 import './MainPage.css';
-import Menu from './Menu/Menu.js';
-import Menu2 from './Menu/Menu2.js';
+import Desktop from './Menu/Desktop.js';
+import Mobile from './Menu/Mobile.js';
 
 import React, {useState,useEffect} from "react"
 
@@ -8,25 +8,23 @@ import React, {useState,useEffect} from "react"
 const App = () => {
 
   const [windowSize, setwindowSize] = useState(window.innerWidth);
+  const [k, setmenuCss] = useState(0);
   const handleResize = () => {
     if(windowSize < 785){
-      setwindowSize(window.innerWidth)
-      console.log("1")            
+      setwindowSize(window.innerWidth)       
     }
     if(windowSize > 785){
-      setwindowSize(window.innerWidth)
-      console.log("2")      
+      setwindowSize(window.innerWidth)    
     }
   }
 
   useEffect(() => {   
-    console.log("3")
-    window.addEventListener('resize', handleResize)     
+    window.addEventListener('resize', handleResize)
   },[])
   
   return (
     <div>
-        {windowSize > 785 ? <div><Menu/></div> : <div><Menu2/> </div>}       
+        {windowSize > 785 ? <Desktop/> : <Mobile/>}       
     </div>  
   );
 }
