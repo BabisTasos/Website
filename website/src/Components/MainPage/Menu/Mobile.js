@@ -9,33 +9,34 @@ export default function Menu2() {
   const [menuCssTech_News, setmenuCssTech_News] = useState("content");
   const [menuCssHardware, setmenuCssHardware] = useState("content");
 
+  const resetValues = () => {   
+    setmenuCssGames("content")
+    setmenuCssTech_News("content")
+    setmenuCssHardware("content")
+  }
+  
   const toggle = (x, text) => {
     if(x === "content")
     {
       if(text === "M")
       {
-        setmenuCss("dropdown_mobile-content")
-        setmenuCssGames("content")
-        setmenuCssTech_News("content")
-        setmenuCssHardware("content")
+        resetValues()
+        setmenuCss("dropdown_mobile-content")     
       }
       else if(text === "Games")
       {
-        setmenuCssGames("dropdown_mobile-content")
-        setmenuCssTech_News("content")
-        setmenuCssHardware("content")
+        resetValues()
+        setmenuCssGames("dropdown_mobile-content")       
       }
       else if(text === "Tech_News")
       {
+        resetValues()
         setmenuCssTech_News("dropdown_mobile-content")
-        setmenuCssGames("content")
-        setmenuCssHardware("content")
       }
       else if(text === "Hardware")
       {
+        resetValues()
         setmenuCssHardware("dropdown_mobile-content")
-        setmenuCssGames("content")
-        setmenuCssTech_News("content")
       }
     }
     else
@@ -58,47 +59,45 @@ export default function Menu2() {
       }
     }  
   }
+
     return(
       <div id = "container">           
       <div id = "header">
-      <ul>
-        
-          <div className="dropdown_mobile">
-            <button onClick = {() => toggle(menuCss, "M")} className = "dropbtn_mobile">M</button>
-              <div className = {menuCss}>            
-                <li>
-                  <div className="dropdown_mobile">
-                  <button onClick = {() => toggle(menuCssGames, "Games")} className = "dropbtn_mobile">Games</button>
-                      <div className = {menuCssGames}>
-                        <a href="https:pornhub.com">Link 1</a>                       
-                    </div>
-                    </div>
-                  </li>
-                  <li>
-                  <div className="dropdown_mobile">
-                    <button onClick = {() => toggle(menuCssTech_News, "Tech_News")} className = "dropbtn_mobile">Tech news</button>
-                      <div className = {menuCssTech_News}>
-                        <a href="https:pornhub.com">Link 1</a>                       
-                      </div>
-                    </div>
+      <ul>   
+        <div className="dropdown_mobile">
+          <button onClick = {() => toggle(menuCss, "M")} className = "dropbtn_mobile">M</button>
+            <div className = {menuCss}>            
+              <li>
+                <div className="dropdown_mobile">
+                <button onClick = {() => toggle(menuCssGames, "Games")} className = "dropbtn_mobile">Games</button>
+                  <div className = {menuCssGames}>
+                    <a href="https:pornhub.com">Link 1</a>                       
+                  </div>
+                  </div>
                 </li>
-                  <li>
-                  <div className="dropdown_mobile">
-                      <button onClick = {() => toggle(menuCssHardware, "Hardware")} className = "dropbtn_mobile">Hardware</button>
-                      <div className = {menuCssHardware}>
-                        <a href="https:pornhub.com">Link 1</a>          
+                <li>
+                <div className="dropdown_mobile">
+                  <button onClick = {() => toggle(menuCssTech_News, "Tech_News")} className = "dropbtn_mobile">Tech news</button>
+                    <div className = {menuCssTech_News}>
+                      <a href="https:pornhub.com">Link 1</a>                       
                     </div>
-                    </div>
-                  </li>
-                  
-                  {/* TODO react here */}       
-                  <li><button className = "dropbtn_mobile dropdown_mobile">Είσοδος</button></li>
-                  <li><button className = "dropbtn_mobile dropdown_mobile">Εγγραφή</button></li>
-                  <li><button className = "dropbtn_mobile dropdown_mobile">Επικοινωνία</button></li>
-              </div>
-          </div>
-          <a style = {{top: '17px', left: '50%', transform: 'translate(-50%,-50%)', position:'absolute',cursor: 'pointer'}} href = "https://www.google.com">Logo</a> 
-        
+                  </div>
+              </li>
+                <li>
+                <div className="dropdown_mobile">
+                    <button onClick = {() => toggle(menuCssHardware, "Hardware")} className = "dropbtn_mobile">Hardware</button>
+                    <div className = {menuCssHardware}>
+                      <a href="https:pornhub.com">Link 1</a>          
+                  </div>
+                  </div>
+                </li>  
+                {/* TODO react here */}       
+                <li><button className = "dropbtn_mobile dropdown_mobile">Είσοδος</button></li>
+                <li><button className = "dropbtn_mobile dropdown_mobile">Εγγραφή</button></li>
+                <li><button className = "dropbtn_mobile dropdown_mobile">Επικοινωνία</button></li>
+            </div>
+        </div>
+        <a style = {{top: '17px', left: '50%', transform: 'translate(-50%,-50%)', position:'absolute',cursor: 'pointer'}} href = "https://www.google.com">Logo</a> 
       </ul>
       </div>   
           <div className = "stories">
