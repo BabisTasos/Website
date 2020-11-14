@@ -2,8 +2,7 @@ import '../MainPage.css';
 import image1 from '../../../img/image1.jpg';
 import image2 from '../../../img/image2.jpg';
 export default function Menu() {
-    return(
-      
+    return(     
       <div id = "container">
       <div id = "ad2">
         ad2
